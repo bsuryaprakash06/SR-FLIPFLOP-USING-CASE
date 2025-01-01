@@ -52,8 +52,9 @@ Program for flipflops and verify its truth table in quartus using Verilog progra
 Developed by: B.SURYA PRAKASH
 
 Register Number: 212224230281
+
 ```
-module sr_ff(s,r,clk,q,qbar);
+module SR(s,r,clk,q,qbar);
 input s,r,clk;
 output reg q;
 output reg qbar;
@@ -72,12 +73,14 @@ endmodule
 
 **RTL DIAGRAM**
 
-![image](https://github.com/user-attachments/assets/e7e78919-2156-4cc0-8974-c97803a004fb)
+![image](https://github.com/user-attachments/assets/71520e64-7720-44b9-9c04-af0f6274f6e9)
 
 **TIMING WAVEFORM**
 
-![image](https://github.com/user-attachments/assets/95fb411a-b960-4ff8-bd6b-d92eb80abfbc)
 
-**RESULTS**
+![image](https://github.com/user-attachments/assets/8fe67f50-4297-4bcc-817d-786f94018d4b)
+
+
+**RESULT**
 
 The observation of the simulation results and confirm the successful execution of the program.
